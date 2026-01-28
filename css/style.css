@@ -1,19 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-main{
-    margin: auto;
-    max-width: 1200px;
-    padding: 100px 0;
-    background-color: aliceblue;
-    min-height: 100vh;
+main {
+  margin: auto;
+  max-width: 1200px;
+  padding: 100px 0;
+  background-color: aliceblue;
+  min-height: 100vh;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
-
