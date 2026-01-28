@@ -20,18 +20,73 @@ header {
   text-align: center;
 }
 
-main ul{
+.inner nav ul{
     display: flex;
-    gap: 12px;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.inner h1{
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.inner ul{
+    margin-bottom: 24px;
+}
+.inner ul li a{
+    display: block;
+    width: 100px;
+    height: 70px;
+    background-color: lightgray;
+    font-weight: 500;
+    border-radius: 25px;
+    
+    color: black;
+
+    text-align: center;
+    align-content: center;
+
+    transition: 0.3s;
+}
+
+.inner ul li a:hover{
+    background-color: gray;
+    color: white;
+}
+
+main{
+    align-content: center;
+    text-align: center;
+}
+
+main ul{
+    margin-top: 24px;
+    display: flex;
+    gap: 36px;
+    justify-content: center;
 }
 main ul li a{
     display: block;
     width: 300px;
     height: 300px;
-    background-color: aquamarine;
-
-    font-size: 24px;
-
+    background-color: #7fffd4;
+    color: #000;
+    
+    border-radius: 999px;
+    
+    font-size: 30px;
+    
     text-align: center;
     align-content: center;
+
+    transition: 0.3s;
+}
+main ul li a:hover{
+    transform: scale(1.2);
+    background-color: #00ffaa;
+}
+main ul li:nth-child(2) a:hover{
+    transform: rotate(360deg) scale(1.2);
 }
