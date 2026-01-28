@@ -1,29 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LOGO</title>
     <link rel="stylesheet" href="./../css/style.css">
     <link rel="stylesheet" href="./../css/about.css">
-</head>
+
+    <head>
+        <link rel="stylesheet" href="../css/style.css">
+        ...
+    </head>
+
 <body>
     <header>
         <div class="inner">
-            <h1>
-                <a href="./../index.html">Logo</a>
-            </h1>
+            <h1><a href="#">LOGO</a></h1>
             <nav>
                 <ul>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./service.html">Service</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    ...
     <main>
-        <h2>About Page</h2>
+        <section class="about-intro">
+            <div class="intro-content">
+                <h2>About This Project</h2>
+                <p class="highlight">"협업을 배우고, 더 나은 코드를 기록합니다."</p>
+                <p class="description">
+                    이 프로젝트는 Git을 활용한 협업 방식(Pull Request)을 실습하고, <br>
+                    웹 표준을 준수한 깔끔한 소개 사이트를 구축하는 것을 목표로 합니다.
+                </p>
+            </div>
+        </section>
+
+        <section class="team-roles">
+            <h3>Team & Roles</h3>
+            <div class="role-grid">
+
+                <div class="role-card">
+                    <div class="icon">🚀</div>
+                    <h4>Project Manager</h4>
+                    <span class="name">Kim Sungjun</span>
+                    <ul class="role-list">
+                        <li>전체 일정 관리</li>
+                        <li>Git 저장소 관리</li>
+                        <li>기획 및 구조 설계</li>
+                    </ul>
+                </div>
+
+                <div class="role-card">
+                    <div class="icon">💻</div>
+                    <h4>Frontend Dev</h4>
+                    <span class="name">Team Member A</span>
+                    <ul class="role-list">
+                        <li>HTML/CSS UI 구현</li>
+                        <li>반응형 웹 디자인</li>
+                        <li>접근성 개선</li>
+                    </ul>
+                </div>
+
+                <div class="role-card">
+                    <div class="icon">🎨</div>
+                    <h4>Designer / QA</h4>
+                    <span class="name">Team Member B</span>
+                    <ul class="role-list">
+                        <li>UI/UX 디자인</li>
+                        <li>크로스 브라우징 테스트</li>
+                        <li>버그 리포팅</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
     </main>
 </body>
+
 </html>
