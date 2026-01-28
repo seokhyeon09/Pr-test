@@ -1,0 +1,10 @@
+ul{
+    list-style: none;
+}
+
+p, main li{
+    color: gray;
+}
+section{
+    margin-top: 20px;
+}
