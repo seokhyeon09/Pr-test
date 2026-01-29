@@ -26,13 +26,27 @@ function bgChange() {
 }
 
 stopBtn.addEventListener('click', (e) => {
-    e.preventDefault
+    e.preventDefault()
     clearInterval(play)
     play = null
 })
 playBtn.addEventListener('click', (e) => {
-    e.preventDefault
+    e.preventDefault()
     if (!play) {
         play = setInterval(bgChange, 1500)
     }
 })
+
+var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+});
