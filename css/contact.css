@@ -10,7 +10,13 @@ ul {
 nav ul {
   display: flex;
   gap: 24px;
-  justify-content: center;
+  /* justify-content: center; */
+}
+
+nav ul li {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .user-list {
@@ -18,12 +24,42 @@ nav ul {
   background: #c4f6ff;
   width: 80%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
 }
 .user {
   background: #a5cfff;
   margin: 60px 0;
   padding: 30px;
+  display: flex;
+}
+.peopleimg {
+  background-image: url(../img/intro-img.png);
+  background-size: cover;
+  min-width: 200px;
+  height: 200px;
+}
+.intro {
+  margin-left: 20px;
+}
+.swiper {
+  width: 80%;
+  margin: 30px auto;
+  background: #c4f6ff;
+  /* overflow: hidden; */
+}
+
+.user-list.swiper-wrapper {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.user.swiper-slide {
+  background: #a5cfff;
+  margin: 60px 0;
+  padding: 30px;
+  display: flex;
+  min-width: 400px;
+  width: 400px;
+  height: auto;
+  box-sizing: border-box;
 }
