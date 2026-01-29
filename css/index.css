@@ -1,11 +1,11 @@
 main ul li a{
     display: block;
     width: 300px;
-    height: 300px;
+    height: 100px;
     background-color: #7fffd4;
     color: #000;
     
-    border-radius: 999px;
+    border-radius: 25px;
     
     font-size: 30px;
     
