@@ -8,3 +8,35 @@ p, main li{
 section{
     margin-top: 20px;
 }
+
+#container {
+    height: 400px;
+    background-color: #ff00ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    transition: 0.3s;
+}
+h1 {
+    color:#fff;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.418);
+}
+.btn-wrap a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0 -2px;
+}
+.btn-wrap a.play{
+    background-color: #000;
+}
+.btn-wrap a.stop{
+    background-color: rgb(131,131,131);
+}
